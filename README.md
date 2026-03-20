@@ -7,9 +7,7 @@ An LM Studio plugin with two tools:
 
 # Upgrades
 
-What changes/upgrades from the original?
-
-# Upgrades from Base
+What changes/upgrades from the base original?
 
 - **Refactor** — Few refactors to existing codebase for a more reliability.
 - **DNS** — Overrides the system resolver with Cloudflare (`1.1.1.1`, `1.0.0.1`) and Google (`8.8.8.8`, `8.8.4.4`) at startup, eliminating flaky ISP/router-caused `ENOTFOUND` errors.
