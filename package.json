@@ -1,0 +1,22 @@
+{
+  "name": "lms-plugin-visit-website",
+  "version": "1.0.0",
+  "description": "LM Studio plugin for visiting websites",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lms dev",
+    "push": "lms push"
+  },
+  "author": "Daniel Sig",
+  "license": "MIT",
+  "dependencies": {
+    "@lmstudio/sdk": "^1.5.0",
+    "@mozilla/readability": "^0.6.0",
+    "jsdom": "^29.0.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^20.14.8"
+  }
+}
